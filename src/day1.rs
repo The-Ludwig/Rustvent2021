@@ -1,4 +1,4 @@
-use std::{fs, vec};
+use std::fs;
 
 fn main() -> Result<(), Box<dyn std::error::Error + 'static>> {
     let input = fs::read_to_string("inputs/day1")?;
