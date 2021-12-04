@@ -1,4 +1,3 @@
-use std::fmt::format;
 use std::fs;
 use std::io;
 
@@ -79,7 +78,7 @@ fn main() -> Result<(), Box<dyn std::error::Error + 'static>> {
 
     let (oxygen, carbon) = part_two(size, &bytes);
     println!(
-        "Part 2: O={} C={}\nMultiplied: {}",
+        "Part 2: O={} C={}\nMultiplied: {}e",
         oxygen,
         carbon,
         oxygen * carbon
