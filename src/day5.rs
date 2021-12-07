@@ -104,6 +104,7 @@ impl Field {
         }
     }
 
+    #[allow(dead_code)]
     fn get_pos(&self, index: usize) -> (usize, usize) {
         (index / self.cols, index % self.cols)
     }
