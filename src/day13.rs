@@ -211,10 +211,4 @@ mod tests {
         println!("{}", field.folded_y(7));
         assert_eq!(part_one(&field, &folds), 17);
     }
-
-    #[test]
-    fn test_part_two() {}
-
-    #[test]
-    fn test_pos() {}
 }
