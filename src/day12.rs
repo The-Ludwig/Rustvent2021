@@ -181,12 +181,12 @@ mod tests {
     #[test]
     fn test_part_one() {
         let graph = parse("inputs/day12_test").unwrap();
-        assert_eq!(part_one(graph), 19)
+        assert_eq!(part_one(&graph), 19)
     }
 
     #[test]
     fn test_part_two() {
         let graph = parse("inputs/day12_test").unwrap();
-        assert_eq!(part_two(graph), 103)
+        assert_eq!(part_two(&graph), 103)
     }
 }
